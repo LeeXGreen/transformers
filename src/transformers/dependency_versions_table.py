@@ -2,7 +2,7 @@
 # 1. modify the `_deps` dict in setup.py
 # 2. run `make deps_table_update``
 deps = {
-    "Pillow": "Pillow",
+    "Pillow": "Pillow>=9.1.0",
     "accelerate": "accelerate>=0.9.0",
     "black": "black~=22.0,>=22.3",
     "codecarbon": "codecarbon==1.2.0",
